@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+
 const userSchema = mongoose.Schema({
     name: {
         type: String,
@@ -24,11 +25,12 @@ const userSchema = mongoose.Schema({
             require: true
         }
     },
-  
+
     role: {
-        type: String,
-        default: "user"
+        type: [String],
+        default: ["user"]
     },
+
     createdAt: {
         type: Date,
         default: new Date()
