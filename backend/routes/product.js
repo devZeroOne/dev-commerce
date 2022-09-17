@@ -30,9 +30,15 @@ const ProductApiFeatures = require('../utils/ProductApiFeatures');
 router.get("/", async (req, res, next) => {
 
     try {
+        // console.log(req.query);
 
 
-        let productApiFeatures = new ProductApiFeatures(Product.find(), req.query).search().filter()
+        const productPerPage = 3;
+
+
+
+
+        let productApiFeatures = new ProductApiFeatures(Product.find(), req.query).search().filter().pagination(productPerPage)
 
 
         let products = await productApiFeatures.product
@@ -46,8 +52,6 @@ router.get("/", async (req, res, next) => {
     }
 
 })
-
-
 
 
 router.get("/:id", async (req, res, next) => {
