@@ -1,0 +1,110 @@
+.checkout_cart_page_area {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-gap: 20px;
+}
+.checkout_cart_page_area .shipping_details_area {
+    border: 1px solid #eee;
+    padding: 30px;
+}
+.checkout_cart_page_area .shipping_details_area form h2 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    line-height: 40px;
+    padding: 10px 0;
+}
+.checkout_cart_page_area .shipping_details_area form .button {
+    margin-top: 20px;
+    width: 250px;
+    background-color: #000;
+    color: #fff;
+}
+.checkout_cart_page_area .shipping_details_area form .button:hover {
+    background-color: red;
+    color: #000;
+}
+.checkout_cart_page_area .shipping_details_area .information_show_and_payment_area h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px 0;
+}
+.checkout_cart_page_area .shipping_details_area .information_show_and_payment_area .button {
+    margin-top: 20px;
+    width: 250px;
+    background-color: #000;
+    color: #fff;
+}
+.checkout_cart_page_area .shipping_details_area .information_show_and_payment_area .button:hover {
+    background-color: red;
+    color: #000;
+}
+.checkout_cart_page_area .shipping_details_area .information_show_and_payment_area .button_return {
+    margin-top: 20px;
+    width: 250px;
+    background-color: transparent;
+    color: red;
+}
+.checkout_cart_page_area .shipping_details_area .information_show_and_payment_area .button_return:hover {
+    color: #000;
+}
+.checkout_cart_page_area .shipping_details_area .information_show_and_payment_area p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 12px;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+}
+.checkout_cart_page_area .shipping_details_area .information_show_and_payment_area p span {
+    color: #808080;
+    font-weight: 400;
+}
+.checkout_cart_page_area .shipping_details_area .information_show_and_payment_area .shippingRate div {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 12px;
+}
+.checkout_cart_page_area .shipping_details_area .information_show_and_payment_area .shippingRate div input {
+    width: 50px;
+}
+.checkout_cart_page_area .shipping_details_area .information_show_and_payment_area .shippingRate span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #000;
+}
+.input_option_country {
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: 2.5fr 7fr;
+    width: 500px;
+    align-items: center;
+}
+.input_option_country label {
+    font-size: 15px;
+    font-weight: 500;
+}
+.input_option_country select {
+    border: 1px solid #eee;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: gray;
+    font-size: 15px;
+}
+.input_option_country select:focus {
+    border: 1px solid #3f3ff8;
+    outline: none;
+}
+.input_option_country input {
+    border: 1px solid #eee;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: gray;
+    font-size: 15px;
+}
+.input_option_country input:focus {
+    border: 1px solid #3f3ff8;
+    outline: none;
+}

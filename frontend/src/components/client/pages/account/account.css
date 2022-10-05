@@ -1,0 +1,52 @@
+.account {
+  margin: 30px 0;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  grid-gap: 20px;
+}
+
+.account_sidebar {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.account_sidebar .profile {
+  display: flex;
+  align-items: center;
+}
+
+.account_sidebar .profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.account_sidebar .profile p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.side_nav {
+  list-style: none;
+}
+
+.side_nav li {
+  margin: 5px 0;
+}
+.side_nav li a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 18px;
+  font-weight: 500;
+}
+.side_nav li a:hover {
+  color: red;
+}
+
+.active_link {
+  color: green;
+}

@@ -1,0 +1,11 @@
+.product_page{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-gap: 40px;
+}
+
+.product_are{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 20px;
+}

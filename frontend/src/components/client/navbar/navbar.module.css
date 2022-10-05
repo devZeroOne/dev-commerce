@@ -1,0 +1,23 @@
+.active_nav{
+    color:#e50b4f;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.default_nav{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.login_header{
+    font-size: 15px;
+    font-weight:500;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.search_input_box{
+    height:10%;
+}
